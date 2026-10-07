@@ -109,9 +109,10 @@ function CreateForm({ employee,onCancel, onSaved }) {
     }
     catch (error) {
 
-        console.error("Error while saving employee:", error);
+        //console.error("Error while saving employee:", error);
 
         alert("Failed to save employee");
+        console.error("Something went wrong..!")
 
     }
 };
